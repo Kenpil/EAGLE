@@ -1971,11 +1971,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="73.2" y="29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="70.859" y="25.167" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="100u" x="66" y="56" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.667" y="51.524" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="27" x="66" y="56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="66" y="56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="64.167" y="49.76" size="1.27" layer="27" ratio="10"/>
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="100u" x="44" y="61" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.667" y="56.524" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="27" x="44" y="61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="44" y="61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="42.167" y="54.76" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="77" y="23" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.495" y="20.819" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -2116,8 +2116,8 @@ design rules under a new name.</description>
 <vertex x="15" y="56"/>
 <vertex x="27" y="56"/>
 <vertex x="27" y="45"/>
-<vertex x="39" y="45"/>
-<vertex x="39" y="0"/>
+<vertex x="38" y="45"/>
+<vertex x="38" y="0"/>
 <vertex x="80" y="0"/>
 <vertex x="80" y="65"/>
 <vertex x="15" y="65"/>
@@ -2125,8 +2125,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="65"/>
 <vertex x="0" y="0"/>
-<vertex x="38" y="0"/>
-<vertex x="38" y="44"/>
+<vertex x="37" y="0"/>
+<vertex x="37" y="44"/>
 <vertex x="26" y="44"/>
 <vertex x="26" y="55"/>
 <vertex x="14" y="55"/>
@@ -2137,9 +2137,8 @@ design rules under a new name.</description>
 <contactref element="X1" pad="6"/>
 <contactref element="LED4" pad="K"/>
 <contactref element="X2" pad="2"/>
-<wire x1="64" y1="54.73" x2="66" y2="54.73" width="1.27" layer="16"/>
-<wire x1="64" y1="54.73" x2="55.73" y2="63" width="1.27" layer="16"/>
-<wire x1="22" y1="63" x2="55.73" y2="63" width="1.27" layer="16"/>
+<wire x1="40.73" y1="63" x2="44" y2="59.73" width="1.27" layer="16"/>
+<wire x1="22" y1="63" x2="40.73" y2="63" width="1.27" layer="16"/>
 <wire x1="46.38" y1="44.16" x2="53.16" y2="44.16" width="1.27" layer="16"/>
 <wire x1="58.24" y1="49.24" x2="61.62" y2="49.24" width="1.27" layer="16"/>
 <wire x1="53.16" y1="44.16" x2="58.24" y2="49.24" width="1.27" layer="16"/>
@@ -2240,12 +2239,12 @@ design rules under a new name.</description>
 <signal name="+9V">
 <contactref element="A1" pad="4.1"/>
 <contactref element="C2" pad="+"/>
-<wire x1="66" y1="59.27" x2="66" y2="57.27" width="1.016" layer="1"/>
-<wire x1="66" y1="59.27" x2="62" y2="63.27" width="1.016" layer="1"/>
-<wire x1="22.29" y1="63.27" x2="62" y2="63.27" width="1.016" layer="1"/>
-<wire x1="66" y1="57.27" x2="64" y2="57.27" width="1.016" layer="1"/>
-<wire x1="64" y1="57.27" x2="61.62" y2="54.89" width="1.016" layer="1"/>
-<wire x1="61.62" y1="54.89" x2="61.62" y2="51.78" width="1.016" layer="1"/>
+<wire x1="43" y1="63.27" x2="44" y2="62.27" width="1.016" layer="1"/>
+<wire x1="22.29" y1="63.27" x2="43" y2="63.27" width="1.016" layer="1"/>
+<wire x1="44" y1="62.27" x2="44.73" y2="63" width="1.016" layer="1"/>
+<wire x1="44.73" y1="63" x2="54" y2="63" width="1.016" layer="1"/>
+<wire x1="54" y1="63" x2="61.62" y2="55.38" width="1.016" layer="1"/>
+<wire x1="61.62" y1="55.38" x2="61.62" y2="51.78" width="1.016" layer="1"/>
 <contactref element="F1" pad="2"/>
 <contactref element="R8" pad="1"/>
 <wire x1="22.29" y1="63.27" x2="20.1" y2="61.08" width="1.016" layer="1"/>
